@@ -1,8 +1,30 @@
 aid: pearl-health
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/pearl-health.png
 name: Pearl Health
-description: Pearl Health is a company surfaced as a portfolio company of a16z, sv-angel and added to
-  the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Pearl Health is a healthcare technology company that provides value-based care
+  intelligence for physicians, primary care practices, physician networks, and
+  health systems. Its platform acts as an operating system for value-based care,
+  ingesting Medicare claims data, ADT feeds, and EHR information to identify
+  high-risk patients, prioritize care activities with actionable next steps and
+  automated administrative workflows, and optimize financial performance under
+  Traditional Medicare and Medicare Advantage risk arrangements. Pearl reports
+  serving 5,000+ providers across 40+ states, managing roughly 250,000
+  beneficiaries. The company connects to existing EHR systems but does not
+  publish a public developer API, SDK, or developer portal. This profile was
+  surfaced as an a16z and SV Angel portfolio company and enriched from the
+  provider's public web surface.
 url: https://raw.githubusercontent.com/api-evangelist/pearl-health/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -13,15 +35,35 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
-apis: []
+- Healthcare
+- Value-Based Care
+- Medicare
+- Health Systems
+- Primary Care
+- Population Health
+- Health Analytics
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+apis: []
 common:
 - type: Website
   url: https://pearlhealth.com
+- type: Blog
+  url: https://www.pearlhealth.com/blog
+- type: PrivacyPolicy
+  url: https://www.pearlhealth.com/privacy-policy
+- type: TermsOfService
+  url: https://www.pearlhealth.com/terms-of-use
+- type: DomainSecurity
+  url: security/pearl-health-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
